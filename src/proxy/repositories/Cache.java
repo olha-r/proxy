@@ -13,8 +13,8 @@ public class Cache {
 	return STICKERS.get(id);
     }
 
-    public static void cache(Sticker person) {
-	STICKERS.put(person.getId(), person);
+    public static void cache(Sticker sticker) {
+	STICKERS.put(sticker.getId(), sticker);
     }
 
 }
